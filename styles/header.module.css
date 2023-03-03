@@ -1,0 +1,35 @@
+.header {
+	height: 75px;
+	width: 100%;
+	background-color: red;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.headerElement {
+	padding: 5px 15px;
+	background-color:  white;
+}
+
+.searchBar {
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
+
+.postWrapper {
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	background: gray;
+	border: 2px solid lightgray;
+	width: 100%;
+	padding: 15px;
+}

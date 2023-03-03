@@ -1,0 +1,28 @@
+.newPostWrapper {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.newPostContainer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #FFF;
+}
+
+.newPostTitle {
+	margin: 30px;
+}
+
+.newPostContent {
+	margin: 30px;
+}
