@@ -1,123 +1,129 @@
 {
-	"subs": [{
-			"name": "animals",
-			"posts": [{
-					"title": "My dog at the park",
-					"content": "He's so funny"
-				},
-				{
-					"title": "Ts are so fun to have",
-					"content": "They seem very scary and they might make you have a few nightmares about them escaping their enclosure, but at the end of the day it's all worth it!"
-				},
-				{
-					"title": "Title",
-					"content": "myContent"
-				},
-				{
-					"title": "My cat's latest trick",
-					"content": "I taught my cat how to high-five and it's the cutest thing ever!"
-				},
-				{
-					"title": "A day at the zoo",
-					"content": "I had so much fun watching the monkeys play and the lions roar."
-				}
-			]
-		},
-		{
-			"name": "planes",
-			"posts": [{
-					"title": "The almighty B747",
-					"content": "This beauty was found at LAX the day idc on time idc"
-				},
-				{
-					"title": "Flying over the Grand Canyon",
-					"content": "The view was absolutely breathtaking from the plane."
-				},
-				{
-					"title": "My first solo flight",
-					"content": "I was so nervous but it was an incredible feeling to be up in the air by myself."
-				},
-				{
-					"title": "The history of the Boeing 737",
-					"content": "Did you know that the 737 is the best-selling jet airliner in history?"
-				},
-				{
-					"title": "Private vs commercial flights",
-					"content": "I've flown both and there are pros and cons to each. What's your preference?"
-				}
-			]
-		},
-		{
-			"name": "food",
-			"posts": [{
-					"title": "My favorite pizza toppings",
-					"content": "I love pepperoni, mushrooms, and olives on my pizza. What about you?"
-				},
-				{
-					"title": "The best BBQ in Texas",
-					"content": "I went on a road trip and tried all the best BBQ spots in Texas. The winner? Franklin BBQ in Austin."
-				},
-				{
-					"title": "The health benefits of dark chocolate",
-					"content": "Did you know that dark chocolate is rich in antioxidants and can help lower blood pressure?"
-				},
-				{
-					"title": "A vegetarian's guide to fast food",
-					"content": "It can be tough to find vegetarian options at fast food places, but there are some great choices out there."
-				},
-				{
-					"title": "The history of sushi",
-					"content": "Sushi has been around for centuries and has a fascinating history. Did you know that it was originally a way to preserve fish?"
-				}
-			]
-		},
-		{
-			"name": "music",
-			"posts": [{
-					"title": "My favorite songs of all time",
-					"content": "I could listen to 'Bohemian Rhapsody' and 'Stairway to Heaven' on repeat forever."
-				},
-				{
-					"title": "The evolution of hip hop",
-					"content": "From Grandmaster Flash to Kendrick Lamar, hip hop has come a long way."
-				},
-				{
-					"title": "The best albums of the 90s",
-					"content": "Nevermind, The Chronic, OK Computer...the 90s were an amazing time for music. What are some of your favorite albums from that decade?"
-				},
-				{
-					"title": "The power of music therapy",
-					"content": "Music has been shown to have incredible healing effects on the mind and body. Have you ever tried music therapy?"
-				},
-				{
-					"title": "The most underrated band of all time",
-					"content": "In my opinion, it's definitely The Kinks. They don't get the recognition they deserve!"
-				}
-			]
-		},
-		{
-			"name": "travel",
-			"posts": [{
-					"title": "My favorite city in Europe",
-					"content": "I fell in love with Amsterdam when I visited last year. The canals, the museums, the food...it's all amazing."
-				},
-				{
-					"title": "The best hiking trails in the US",
-					"content": "From the Grand Canyon to Yosemite, there are so many incredible hikes to do in the US. What's your favorite?"
-				},
-				{
-					"title": "The benefits of solo travel",
-					"content": "Traveling alone can be scary, but it's also incredibly rewarding. You get to do exactly what you want and meet new people along the way."
-				},
-				{
-					"title": "The world's most beautiful beaches",
-					"content": "I've been to a lot of beaches in my life, but the ones in the Maldives are next level. The water is crystal clear and the sand is like powder."
-				},
-				{
-					"title": "Camping in the wilderness",
-					"content": "There's nothing like getting away from it all and spending a few nights in nature. Have you ever gone camping?"
-				}
-			]
-		}
-	]
+  "subs": [
+    {
+      "name": "animals",
+      "posts": [
+        {
+          "title": "My dog at the park",
+          "content": "He's so funny"
+        },
+        {
+          "title": "Ts are so fun to have",
+          "content": "They seem very scary and they might make you have a few nightmares about them escaping their enclosure, but at the end of the day it's all worth it!"
+        },
+        {
+          "title": "Title",
+          "content": "myContent"
+        },
+        {
+          "title": "My cat's latest trick",
+          "content": "I taught my cat how to high-five and it's the cutest thing ever!"
+        },
+        {
+          "title": "A day at the zoo",
+          "content": "I had so much fun watching the monkeys play and the lions roar."
+        }
+      ]
+    },
+    {
+      "name": "planes",
+      "posts": [
+        {
+          "title": "The almighty B747",
+          "content": "This beauty was found at LAX the day idc on time idc"
+        },
+        {
+          "title": "Flying over the Grand Canyon",
+          "content": "The view was absolutely breathtaking from the plane."
+        },
+        {
+          "title": "My first solo flight",
+          "content": "I was so nervous but it was an incredible feeling to be up in the air by myself."
+        },
+        {
+          "title": "The history of the Boeing 737",
+          "content": "Did you know that the 737 is the best-selling jet airliner in history?"
+        },
+        {
+          "title": "Private vs commercial flights",
+          "content": "I've flown both and there are pros and cons to each. What's your preference?"
+        }
+      ]
+    },
+    {
+      "name": "food",
+      "posts": [
+        {
+          "title": "My favorite pizza toppings",
+          "content": "I love pepperoni, mushrooms, and olives on my pizza. What about you?"
+        },
+        {
+          "title": "The best BBQ in Texas",
+          "content": "I went on a road trip and tried all the best BBQ spots in Texas. The winner? Franklin BBQ in Austin."
+        },
+        {
+          "title": "The health benefits of dark chocolate",
+          "content": "Did you know that dark chocolate is rich in antioxidants and can help lower blood pressure?"
+        },
+        {
+          "title": "A vegetarian's guide to fast food",
+          "content": "It can be tough to find vegetarian options at fast food places, but there are some great choices out there."
+        },
+        {
+          "title": "The history of sushi",
+          "content": "Sushi has been around for centuries and has a fascinating history. Did you know that it was originally a way to preserve fish?"
+        }
+      ]
+    },
+    {
+      "name": "music",
+      "posts": [
+        {
+          "title": "My favorite songs of all time",
+          "content": "I could listen to 'Bohemian Rhapsody' and 'Stairway to Heaven' on repeat forever."
+        },
+        {
+          "title": "The evolution of hip hop",
+          "content": "From Grandmaster Flash to Kendrick Lamar, hip hop has come a long way."
+        },
+        {
+          "title": "The best albums of the 90s",
+          "content": "Nevermind, The Chronic, OK Computer...the 90s were an amazing time for music. What are some of your favorite albums from that decade?"
+        },
+        {
+          "title": "The power of music therapy",
+          "content": "Music has been shown to have incredible healing effects on the mind and body. Have you ever tried music therapy?"
+        },
+        {
+          "title": "The most underrated band of all time",
+          "content": "In my opinion, it's definitely The Kinks. They don't get the recognition they deserve!"
+        }
+      ]
+    },
+    {
+      "name": "travel",
+      "posts": [
+        {
+          "title": "My favorite city in Europe",
+          "content": "I fell in love with Amsterdam when I visited last year. The canals, the museums, the food...it's all amazing."
+        },
+        {
+          "title": "The best hiking trails in the US",
+          "content": "From the Grand Canyon to Yosemite, there are so many incredible hikes to do in the US. What's your favorite?"
+        },
+        {
+          "title": "The benefits of solo travel",
+          "content": "Traveling alone can be scary, but it's also incredibly rewarding. You get to do exactly what you want and meet new people along the way."
+        },
+        {
+          "title": "The world's most beautiful beaches",
+          "content": "I've been to a lot of beaches in my life, but the ones in the Maldives are next level. The water is crystal clear and the sand is like powder."
+        },
+        {
+          "title": "Camping in the wilderness",
+          "content": "There's nothing like getting away from it all and spending a few nights in nature. Have you ever gone camping?"
+        }
+      ]
+    }
+  ]
 }

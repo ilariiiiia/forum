@@ -29,22 +29,22 @@ export default async function handler(
 			}
 			i++;
 		});
-		console.log(newJSON[subIndex].posts);
 		newJSON[subIndex].posts.push({
 			"title" : req.body.title,
 			"content" : req.body.content
 		});
 		newJSON = {"subs":newJSON};
 		await fs.writeFile(
-		  jsonDirectory,
-		  JSON.stringify(newJSON, null, 2),
-		  (err: fs.ErrnoException | null) => {
-		    if (err) {
-		      console.error(err);
-		    } else {
-		      console.log('File saved successfully.');
-		    }
-		  }
+			jsonDirectory,
+			JSON.stringify(newJSON, null, 2),
+			null,
+			(err: fs.ErrnoException | null) => {
+				if (err) {
+					console.error(err);
+				} else {
+					console.log('File saved successfully.');
+				}
+			}
 		);
 		res.status(200).json("success!");
 	} catch (error) {
