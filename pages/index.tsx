@@ -19,16 +19,15 @@ type FormData = {
 const Home: NextPage = () => {
 	const [posts, setPosts] = useState<PostData[]>([]);
 	const [hidden, setHidden] = useState(true);	
-
-	const showNewPost = () => {
-		setHidden(false);
-	}
-
 	const [formData, setFormData] = useState({
 		title:"",
 		content:"",
 		sub:""
 	});
+	
+	const showNewPost = () => {
+		setHidden(false);
+	}
 	
 	const hideNewPost = () => {
 		setHidden(true);
@@ -50,13 +49,9 @@ const Home: NextPage = () => {
 		.catch(error => console.error(error));
 	}
 	
-	function handleInputChange(event : SyntheticEvent) {
+	function handleInputChange(event: React.ChangeEvent<HTMLInputElement>) {
 		const { name, value } = event.target;
-		
-		setFormData(prevState => ({
-			...prevState,
-			[name]: value,
-		}));
+		setFormData((prevState) => ({ ...prevState, [name]: value }));
 	}
 	
 	useEffect(() => {
