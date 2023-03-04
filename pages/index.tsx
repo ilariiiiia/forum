@@ -117,7 +117,7 @@ const Home: NextPage = () => {
 	
 	{posts.map((post, index) => (
 		<div key={index} className={indexStyles.postWrapper}>
-			<Post className={postStyles.post} key={index} title={post.title} content={post.content} />
+			<Post key={index} title={post.title} content={post.content} />
 		</div>
 	))}
 	
