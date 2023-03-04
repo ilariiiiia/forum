@@ -3,8 +3,7 @@ import React, { useState, useEffect, SyntheticEvent } from "react"
 import indexStyles from "../styles/header.module.css";
 import postStyles from "../styles/post.module.css";
 import inputStyles from "../styles/inputStyles.module.css";
-import Post from "./_post.tsx";
-import PostForm from "./_newPostForm.tsx";
+import Post from "./_post";
 
 type PostData = {
   title: string;
@@ -19,45 +18,46 @@ type FormData = {
 
 const Home: NextPage = () => {
 	const [posts, setPosts] = useState<PostData[]>([]);
-	const [hidden, setHidden] = useState(true);
-	const [formData, setFormData] = useState({
-		title:"",
-		content:"",
-		sub:""
-	});
-
-	const hideNewPost = () => {
-		setHidden(true);
-	}
+	const [hidden, setHidden] = useState(true);	
 
 	const showNewPost = () => {
 		setHidden(false);
 	}
 
+	const [formData, setFormData] = useState({
+		title:"",
+		content:"",
+		sub:""
+	});
+	
+	const hideNewPost = () => {
+		setHidden(true);
+	}
+	
 	function handleSubmit(event : SyntheticEvent) {
 		hideNewPost();
 		event.preventDefault();
-	
+		
 		fetch('/api/post', {
-		  method: 'POST',
-		  headers: {
-			'Content-Type': 'application/json',
-		  },
-		  body: JSON.stringify(formData),
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+			},
+			body: JSON.stringify(formData),
 		})
-		  .then(response => response.json())
-		  .then(data => console.log(data))
-		  .catch(error => console.error(error));
+		.then(response => response.json())
+		.then(data => console.log(data))
+		.catch(error => console.error(error));
 	}
-
-	function handleInputChange(event : SyntheticEvent) {
-	    const { name, value } = event.target;
 	
-	    setFormData(prevState => ({
-	      ...prevState,
-	      [name]: value,
-	    }));
-	  }
+	function handleInputChange(event : SyntheticEvent) {
+		const { name, value } = event.target;
+		
+		setFormData(prevState => ({
+			...prevState,
+			[name]: value,
+		}));
+	}
 	
 	useEffect(() => {
 		const fetchPosts = async () => {
@@ -77,7 +77,39 @@ const Home: NextPage = () => {
 	
 	return (
 	<>
-	{ hidden ? null : (<PostForm/>) }
+	{ hidden ? null : (<div className={inputStyles.newPostWrapper}>
+		<form className={inputStyles.newPostContainer} onSubmit={handleSubmit}>
+			<label>Title</label>
+			<input
+				className={inputStyles.newPostTitle}
+				name="title"
+				onChange={handleInputChange}
+				type="text"
+				value={formData.title}
+				placeholder="title"
+			/>
+			<label>Content</label>
+			<input 
+				className={inputStyles.newPostContent}
+				name="content"
+				onChange={handleInputChange}
+				type="text"
+				value={formData.content}
+				placeholder="content"
+			/>
+			<label>Sub</label>
+			<input 
+				className={inputStyles.newPostContent}
+				name="sub"
+				onChange={handleInputChange}
+				type="text"
+				value={formData.sub}
+				placeholder="sub"
+			/>
+			<input type="submit" value="Post"></input>
+			<button onClick={hideNewPost}>Close</button>
+		</form>
+	</div>) }
 	<div className={indexStyles.header}>
 		<div className={indexStyles.headerElement}>
 		  Title
