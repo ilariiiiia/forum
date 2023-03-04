@@ -21,8 +21,7 @@ export default async function handler(
 		const jsonDirectory = path.join(process.cwd(), 'data/posts.json');
 		const fileContents = await fs.readFile(jsonDirectory, 'utf8');
 		let { sub } = req.query;
-		console.log(req.query);
-		const subName = sub || "planes";
+		const subName = sub || "any";
 		const subs = JSON.parse(fileContents).subs;
 		let i = 0;
 		let subIndex = 0;
