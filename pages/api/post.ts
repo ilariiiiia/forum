@@ -36,15 +36,7 @@ export default async function handler(
 		newJSON = {"subs":newJSON};
 		await fs.writeFile(
 			jsonDirectory,
-			JSON.stringify(newJSON, null, 2),
-			null,
-			(err: fs.ErrnoException | null) => {
-				if (err) {
-					console.error(err);
-				} else {
-					console.log('File saved successfully.');
-				}
-			}
+			JSON.stringify(newJSON, null, 2)
 		);
 		res.status(200).json("success!");
 	} catch (error) {
