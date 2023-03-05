@@ -70,7 +70,8 @@ const Home: NextPage = () => {
 	}
 
 	useEffect(() => {
-		setTimeout(refreshPosts, 5000);
+		refreshPosts();
+		setTimeout(() => refreshPosts(), 5000);
 	}, []);
 	
 	return (
@@ -105,8 +106,10 @@ const Home: NextPage = () => {
 				value={formData.sub}
 				placeholder="sub"
 			/>
-			<input className={indexStyles.searchBarInput} type="submit" value="Post"></input>
-			<button className={indexStyles.searchBarInput} onClick={hideNewPost}>Close</button>
+			<div style={{display:'flex', flex_direction: 'flex-row'}}>
+				<input className={indexStyles.searchBarInput} type="submit" value="Post"></input>
+				<button className={indexStyles.searchBarInput} onClick={hideNewPost}>Close</button>
+			</div>
 		</form>
 	</div>) }
 	<div className={indexStyles.header}>

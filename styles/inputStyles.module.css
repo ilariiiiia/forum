@@ -10,13 +10,15 @@
 }
 
 .newPostContainer {
+	border-radius: 50px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: #FFF;
+	background-color: var(--light);
+	box-shadow: 1px 1px 15px var(--dark);
 }
 
 .newPostTitle {

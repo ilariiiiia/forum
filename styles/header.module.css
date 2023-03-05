@@ -20,14 +20,17 @@
 	max-width: var(--maxBodyWidth);
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 30px;
 	display: flex;
 	align-items: center;
 	align-content: center;
 	justify-content: space-between;
+	border: 1px solid #DDD;
+	border-radius: 25px;
 }
 
 .searchBarInput {
-	border: 1px solid #DDD;
+	border: 1px solid var(--light);
 	margin: 15px;
 	padding: 5px;
 	font-size: large;
@@ -41,12 +44,10 @@
 
 .postWrapper {
 	max-width: 800px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 15px;
-	margin-bottom: 5px;
-	background: #DDD;
-	border: 2px solid #BBB;
+	margin: 30px auto;
+	background: var(--light);
+	border: 2px solid #DDD;
 	width: 100%;
 	padding: 15px;
+	box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
 }
