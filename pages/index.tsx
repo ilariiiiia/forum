@@ -18,12 +18,21 @@ type FormData = {
 
 const Home: NextPage = () => {
 	const [posts, setPosts] = useState<PostData[]>([]);
-	const [hidden, setHidden] = useState(true);	
+	const [hidden, setHidden] = useState(true);
+	const [subToSearch, setSubToSearch] = useState<string>("planes");
 	const [formData, setFormData] = useState({
 		title:"",
 		content:"",
 		sub:""
 	});
+	async function handleSubSearch(event: React.ChangeEvent<HTMLInputElement>) {
+		const { value } = event.target;
+		setSubToSearch(value);
+		setFormData((prevState) => ({ ...prevState, ["sub"]: value }));
+		const response = await fetch(`/api/getPosts?sub=${value}`);
+		const postsData = await response.json();
+		setPosts(postsData);
+	}
 	
 	const showNewPost = () => {
 		setHidden(false);
@@ -54,22 +63,6 @@ const Home: NextPage = () => {
 		setFormData((prevState) => ({ ...prevState, [name]: value }));
 	}
 	
-	useEffect(() => {
-		const fetchPosts = async () => {
-			const response = await fetch('/api/getPosts?sub=all');
-			const postsData = await response.json();
-			setPosts(postsData);
-		};
-		
-		fetchPosts();
-		
-		const intervalId = setInterval(() => {
-			fetchPosts();
-		}, 5000);
-		
-		return () => clearInterval(intervalId);
-	}, []);
-	
 	return (
 	<>
 	{ hidden ? null : (<div className={inputStyles.newPostWrapper}>
@@ -93,7 +86,8 @@ const Home: NextPage = () => {
 				placeholder="content"
 			/>
 			<label>Sub</label>
-			<input 
+			<input
+				disabled="true"
 				className={inputStyles.newPostContent}
 				name="sub"
 				onChange={handleInputChange}
@@ -111,7 +105,7 @@ const Home: NextPage = () => {
 		</div>
 	</div>
 	<div className={indexStyles.searchBar}>
-		<input type="text" placeholder="search for a sub..."></input>
+		<input type="text" placeholder="search for a sub..." name="sub" onChange={handleSubSearch} value={subToSearch}></input>
 		<button onClick={showNewPost}>New post</button>
 	</div>
 	
