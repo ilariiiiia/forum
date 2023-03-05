@@ -1,223 +1,229 @@
 {
-	"subs": [{
-			"name": "animals",
-			"posts": [{
-					"title": "My dog at the park",
-					"content": "He's so funny"
-				},
-				{
-					"title": "Ts are so fun to have",
-					"content": "They seem very scary and they might make you have a few nightmares about them escaping their enclosure, but at the end of the day it's all worth it!"
-				},
-				{
-					"title": "Title",
-					"content": "myContent"
-				},
-				{
-					"title": "My cat's latest trick",
-					"content": "I taught my cat how to high-five and it's the cutest thing ever!"
-				},
-				{
-					"title": "A day at the zoo",
-					"content": "I had so much fun watching the monkeys play and the lions roar."
-				}
-			]
-		},
-		{
-			"name": "planes",
-			"posts": [{
-					"title": "The almighty B747",
-					"content": "This beauty was found at LAX the day idc on time idc"
-				},
-				{
-					"title": "Flying over the Grand Canyon",
-					"content": "The view was absolutely breathtaking from the plane."
-				},
-				{
-					"title": "My first solo flight",
-					"content": "I was so nervous but it was an incredible feeling to be up in the air by myself."
-				},
-				{
-					"title": "The history of the Boeing 737",
-					"content": "Did you know that the 737 is the best-selling jet airliner in history?"
-				},
-				{
-					"title": "Private vs commercial flights",
-					"content": "I've flown both and there are pros and cons to each. What's your preference?"
-				},
-				{
-					"title": "Some title",
-					"content": "Some other content"
-				}
-			]
-		},
-		{
-			"name": "food",
-			"posts": [{
-					"title": "My favorite pizza toppings",
-					"content": "I love pepperoni, mushrooms, and olives on my pizza. What about you?"
-				},
-				{
-					"title": "The best BBQ in Texas",
-					"content": "I went on a road trip and tried all the best BBQ spots in Texas. The winner? Franklin BBQ in Austin."
-				},
-				{
-					"title": "The health benefits of dark chocolate",
-					"content": "Did you know that dark chocolate is rich in antioxidants and can help lower blood pressure?"
-				},
-				{
-					"title": "A vegetarian's guide to fast food",
-					"content": "It can be tough to find vegetarian options at fast food places, but there are some great choices out there."
-				},
-				{
-					"title": "The history of sushi",
-					"content": "Sushi has been around for centuries and has a fascinating history. Did you know that it was originally a way to preserve fish?"
-				}
-			]
-		},
-		{
-			"name": "music",
-			"posts": [{
-					"title": "My favorite songs of all time",
-					"content": "I could listen to 'Bohemian Rhapsody' and 'Stairway to Heaven' on repeat forever."
-				},
-				{
-					"title": "The evolution of hip hop",
-					"content": "From Grandmaster Flash to Kendrick Lamar, hip hop has come a long way."
-				},
-				{
-					"title": "The best albums of the 90s",
-					"content": "Nevermind, The Chronic, OK Computer...the 90s were an amazing time for music. What are some of your favorite albums from that decade?"
-				},
-				{
-					"title": "The power of music therapy",
-					"content": "Music has been shown to have incredible healing effects on the mind and body. Have you ever tried music therapy?"
-				},
-				{
-					"title": "The most underrated band of all time",
-					"content": "In my opinion, it's definitely The Kinks. They don't get the recognition they deserve!"
-				}
-			]
-		},
-		{
-			"name": "travel",
-			"posts": [{
-					"title": "My favorite city in Europe",
-					"content": "I fell in love with Amsterdam when I visited last year. The canals, the museums, the food...it's all amazing."
-				},
-				{
-					"title": "The best hiking trails in the US",
-					"content": "From the Grand Canyon to Yosemite, there are so many incredible hikes to do in the US. What's your favorite?"
-				},
-				{
-					"title": "The benefits of solo travel",
-					"content": "Traveling alone can be scary, but it's also incredibly rewarding. You get to do exactly what you want and meet new people along the way."
-				},
-				{
-					"title": "The world's most beautiful beaches",
-					"content": "I've been to a lot of beaches in my life, but the ones in the Maldives are next level. The water is crystal clear and the sand is like powder."
-				},
-				{
-					"title": "Camping in the wilderness",
-					"content": "There's nothing like getting away from it all and spending a few nights in nature. Have you ever gone camping?"
-				}
-			]
-		},
-		{
-			"name": "all",
-			"posts": [{
-					"title": "The best books I've read this year",
-					"content": "From memoirs to sci-fi, here are the books that have kept me hooked in 2023"
-				},
-				{
-					"title": "Why you should start a gratitude journal",
-					"content": "Research shows that practicing gratitude can have a positive impact on mental health. Try starting a daily gratitude journal and see how it affects your mindset."
-				},
-				{
-					"title": "How to declutter your home in a weekend",
-					"content": "Feeling overwhelmed by clutter? Here are some tips to help you declutter your home and simplify your life"
-				},
-				{
-					"title": "My favorite workout routines",
-					"content": "From yoga to HIIT, these are the workouts that keep me motivated and feeling great."
-				},
-				{
-					"title": "The art of slow living",
-					"content": "In our fast-paced world, slowing down can be a challenge. But taking time to savor the little things in life can bring immense joy and peace."
-				}
-			]
-		},
-		{
-			"name": "travel",
-			"posts": [{
-					"title": "My favorite city in Europe",
-					"content": "I fell in love with Amsterdam when I visited last year. The canals, the museums, the food...it's all amazing."
-				},
-				{
-					"title": "The best hiking trails in the US",
-					"content": "From the Grand Canyon to Yosemite, there are so many incredible hikes to do in the US. What's your favorite?"
-				},
-				{
-					"title": "The benefits of solo travel",
-					"content": "Traveling alone can be scary, but it's also incredibly rewarding. You get to do exactly what you want and meet new people along the way."
-				},
-				{
-					"title": "The world's most beautiful beaches",
-					"content": "I've been to a lot of beaches in my life, but the ones in the Maldives are next level. The water is crystal clear and the sand is like powder."
-				},
-				{
-					"title": "Camping in the wilderness",
-					"content": "There's nothing like getting away from it all and spending a few nights in nature. Have you ever gone camping?"
-				}
-			]
-		},
-		{
-			"name": "food",
-			"posts": [{
-					"title": "The best pizza in town",
-					"content": "I'm a pizza snob and this place never disappoints. The crust is crispy, the sauce is tangy, and the toppings are always fresh."
-				},
-				{
-					"title": "How to make the perfect cup of coffee",
-					"content": "Coffee is an art form. Here are some tips to help you brew a delicious cup at home."
-				},
-				{
-					"title": "The health benefits of dark chocolate",
-					"content": "Not all chocolate is created equal. Dark chocolate is packed with antioxidants and has been shown to have heart-healthy benefits."
-				},
-				{
-					"title": "My favorite vegan recipes",
-					"content": "You don't have to be vegan to enjoy plant-based meals. These recipes are flavorful, filling, and good for you."
-				},
-				{
-					"title": "The best brunch spots in the city",
-					"content": "Brunch is my favorite meal of the week. These spots have everything from fluffy pancakes to savory breakfast sandwiches."
-				}
-			]
-		},
-		{
-			"name": "technology",
-			"posts": [{
-					"title": "The future of virtual reality",
-					"content": "VR technology has come a long way in recent years. What do you think the future holds for this immersive technology?"
-				},
-				{
-					"title": "The rise of voice assistants",
-					"content": "From Alexa to Siri, voice assistants are becoming more and more popular. How do you use your voice assistant?"
-				},
-				{
-					"title": "The impact of social media on mental health",
-					"content": "While social media can be a great way to connect with others, it can also have negative effects on mental health. What do you think we can do to use social media in a healthier way?"
-				},
-				{
-					"title": "The coolest gadgets of 2023",
-					"content": "From smart watches to electric bikes, these gadgets will make your life easier and more fun."
-				},
-				{
-					"title": "The ethics of AI",
-					"content": "As AI technology becomes more advanced, we need to consider the ethical implications. What are your thoughts on the use of AI in society?"
-				}
-			]
-		}
-	]
+  "subs": [
+    {
+      "name": "animals",
+      "posts": [
+        {
+          "title": "My dog at the park",
+          "content": "He's so funny"
+        },
+        {
+          "title": "Ts are so fun to have",
+          "content": "They seem very scary and they might make you have a few nightmares about them escaping their enclosure, but at the end of the day it's all worth it!"
+        },
+        {
+          "title": "Title",
+          "content": "myContent"
+        },
+        {
+          "title": "My cat's latest trick",
+          "content": "I taught my cat how to high-five and it's the cutest thing ever!"
+        },
+        {
+          "title": "A day at the zoo",
+          "content": "I had so much fun watching the monkeys play and the lions roar."
+        }
+      ]
+    },
+    {
+      "name": "planes",
+      "posts": [
+        {
+          "title": "The almighty B747",
+          "content": "This beauty was found at LAX the day idc on time idc"
+        },
+        {
+          "title": "Flying over the Grand Canyon",
+          "content": "The view was absolutely breathtaking from the plane."
+        },
+        {
+          "title": "My first solo flight",
+          "content": "I was so nervous but it was an incredible feeling to be up in the air by myself."
+        },
+        {
+          "title": "The history of the Boeing 737",
+          "content": "Did you know that the 737 is the best-selling jet airliner in history?"
+        },
+        {
+          "title": "Private vs commercial flights",
+          "content": "I've flown both and there are pros and cons to each. What's your preference?"
+        }
+      ]
+    },
+    {
+      "name": "food",
+      "posts": [
+        {
+          "title": "My favorite pizza toppings",
+          "content": "I love pepperoni, mushrooms, and olives on my pizza. What about you?"
+        },
+        {
+          "title": "The best BBQ in Texas",
+          "content": "I went on a road trip and tried all the best BBQ spots in Texas. The winner? Franklin BBQ in Austin."
+        },
+        {
+          "title": "The health benefits of dark chocolate",
+          "content": "Did you know that dark chocolate is rich in antioxidants and can help lower blood pressure?"
+        },
+        {
+          "title": "A vegetarian's guide to fast food",
+          "content": "It can be tough to find vegetarian options at fast food places, but there are some great choices out there."
+        },
+        {
+          "title": "The history of sushi",
+          "content": "Sushi has been around for centuries and has a fascinating history. Did you know that it was originally a way to preserve fish?"
+        }
+      ]
+    },
+    {
+      "name": "music",
+      "posts": [
+        {
+          "title": "My favorite songs of all time",
+          "content": "I could listen to 'Bohemian Rhapsody' and 'Stairway to Heaven' on repeat forever."
+        },
+        {
+          "title": "The evolution of hip hop",
+          "content": "From Grandmaster Flash to Kendrick Lamar, hip hop has come a long way."
+        },
+        {
+          "title": "The best albums of the 90s",
+          "content": "Nevermind, The Chronic, OK Computer...the 90s were an amazing time for music. What are some of your favorite albums from that decade?"
+        },
+        {
+          "title": "The power of music therapy",
+          "content": "Music has been shown to have incredible healing effects on the mind and body. Have you ever tried music therapy?"
+        },
+        {
+          "title": "The most underrated band of all time",
+          "content": "In my opinion, it's definitely The Kinks. They don't get the recognition they deserve!"
+        }
+      ]
+    },
+    {
+      "name": "travel",
+      "posts": [
+        {
+          "title": "My favorite city in Europe",
+          "content": "I fell in love with Amsterdam when I visited last year. The canals, the museums, the food...it's all amazing."
+        },
+        {
+          "title": "The best hiking trails in the US",
+          "content": "From the Grand Canyon to Yosemite, there are so many incredible hikes to do in the US. What's your favorite?"
+        },
+        {
+          "title": "The benefits of solo travel",
+          "content": "Traveling alone can be scary, but it's also incredibly rewarding. You get to do exactly what you want and meet new people along the way."
+        },
+        {
+          "title": "The world's most beautiful beaches",
+          "content": "I've been to a lot of beaches in my life, but the ones in the Maldives are next level. The water is crystal clear and the sand is like powder."
+        },
+        {
+          "title": "Camping in the wilderness",
+          "content": "There's nothing like getting away from it all and spending a few nights in nature. Have you ever gone camping?"
+        }
+      ]
+    },
+    {
+      "name": "all",
+      "posts": [
+        {
+          "title": "The best books I've read this year",
+          "content": "From memoirs to sci-fi, here are the books that have kept me hooked in 2023"
+        },
+        {
+          "title": "Why you should start a gratitude journal",
+          "content": "Research shows that practicing gratitude can have a positive impact on mental health. Try starting a daily gratitude journal and see how it affects your mindset."
+        },
+        {
+          "title": "How to declutter your home in a weekend",
+          "content": "Feeling overwhelmed by clutter? Here are some tips to help you declutter your home and simplify your life"
+        },
+        {
+          "title": "My favorite workout routines",
+          "content": "From yoga to HIIT, these are the workouts that keep me motivated and feeling great."
+        },
+        {
+          "title": "The art of slow living",
+          "content": "In our fast-paced world, slowing down can be a challenge. But taking time to savor the little things in life can bring immense joy and peace."
+        }
+      ]
+    },
+    {
+      "name": "travel",
+      "posts": [
+        {
+          "title": "My favorite city in Europe",
+          "content": "I fell in love with Amsterdam when I visited last year. The canals, the museums, the food...it's all amazing."
+        },
+        {
+          "title": "The best hiking trails in the US",
+          "content": "From the Grand Canyon to Yosemite, there are so many incredible hikes to do in the US. What's your favorite?"
+        },
+        {
+          "title": "The benefits of solo travel",
+          "content": "Traveling alone can be scary, but it's also incredibly rewarding. You get to do exactly what you want and meet new people along the way."
+        },
+        {
+          "title": "The world's most beautiful beaches",
+          "content": "I've been to a lot of beaches in my life, but the ones in the Maldives are next level. The water is crystal clear and the sand is like powder."
+        },
+        {
+          "title": "Camping in the wilderness",
+          "content": "There's nothing like getting away from it all and spending a few nights in nature. Have you ever gone camping?"
+        }
+      ]
+    },
+    {
+      "name": "food",
+      "posts": [
+        {
+          "title": "The best pizza in town",
+          "content": "I'm a pizza snob and this place never disappoints. The crust is crispy, the sauce is tangy, and the toppings are always fresh."
+        },
+        {
+          "title": "How to make the perfect cup of coffee",
+          "content": "Coffee is an art form. Here are some tips to help you brew a delicious cup at home."
+        },
+        {
+          "title": "The health benefits of dark chocolate",
+          "content": "Not all chocolate is created equal. Dark chocolate is packed with antioxidants and has been shown to have heart-healthy benefits."
+        },
+        {
+          "title": "My favorite vegan recipes",
+          "content": "You don't have to be vegan to enjoy plant-based meals. These recipes are flavorful, filling, and good for you."
+        },
+        {
+          "title": "The best brunch spots in the city",
+          "content": "Brunch is my favorite meal of the week. These spots have everything from fluffy pancakes to savory breakfast sandwiches."
+        }
+      ]
+    },
+    {
+      "name": "technology",
+      "posts": [
+        {
+          "title": "The future of virtual reality",
+          "content": "VR technology has come a long way in recent years. What do you think the future holds for this immersive technology?"
+        },
+        {
+          "title": "The rise of voice assistants",
+          "content": "From Alexa to Siri, voice assistants are becoming more and more popular. How do you use your voice assistant?"
+        },
+        {
+          "title": "The impact of social media on mental health",
+          "content": "While social media can be a great way to connect with others, it can also have negative effects on mental health. What do you think we can do to use social media in a healthier way?"
+        },
+        {
+          "title": "The coolest gadgets of 2023",
+          "content": "From smart watches to electric bikes, these gadgets will make your life easier and more fun."
+        },
+        {
+          "title": "The ethics of AI",
+          "content": "As AI technology becomes more advanced, we need to consider the ethical implications. What are your thoughts on the use of AI in society?"
+        }
+      ]
+    }
+  ]
 }

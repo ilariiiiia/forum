@@ -25,12 +25,20 @@ export default async function handler(
 		const subs = JSON.parse(fileContents).subs;
 		let i = 0;
 		let subIndex = 0;
+		let found = false;
 		subs.forEach((sub : Sub) => {
 			if(sub.name == subName){
 				subIndex = i;
+				found = true;
 			}
 			i++;
 		});
+		if(!found){
+			res.status(200).json([{
+				"title":"No posts available. Be the first one!",
+				"content":""
+			}])
+		}
 		const posts: Post[] = subs[subIndex].posts;
 		res.status(200).json(posts);
 	} catch (error) {

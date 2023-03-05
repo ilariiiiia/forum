@@ -62,6 +62,16 @@ const Home: NextPage = () => {
 		const { name, value } = event.target;
 		setFormData((prevState) => ({ ...prevState, [name]: value }));
 	}
+
+	async function refreshPosts() {
+		const response = await fetch(`/api/getPosts?sub=${subToSearch}`);
+		const postsData = await response.json();
+		setPosts(postsData);
+	}
+
+	useEffect(() => {
+		setTimeout(refreshPosts, 5000);
+	}, []);
 	
 	return (
 	<>
