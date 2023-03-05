@@ -24,5 +24,26 @@
 }
 
 .newPostContent {
-	margin: 30px;
+	border: 1px solid #DDD;
+	margin: 15px;
+	padding: 5px;
+	font-size: large;
+	border-radius: 10px;
+}
+
+.newPostContentDisabled {
+	border: 1px solid #DDD;
+	margin: 15px;
+	padding: 5px;
+	font-size: large;
+	border-radius: 10px;
+}
+
+.newPostContent:hover {
+	border: 3px solid #AAA;
+	margin: 13px;
+}
+
+.newPostContentDisabled:hover {
+	cursor: not-allowed;
 }

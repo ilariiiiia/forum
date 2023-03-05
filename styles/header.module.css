@@ -1,7 +1,9 @@
 .header {
 	height: 75px;
 	width: 100%;
-	background-color: red;
+	background-color: #DDD;
+	font-weight: 700;
+	font-size: larger;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -11,15 +13,30 @@
 
 .headerElement {
 	padding: 5px 15px;
-	background-color:  white;
+	background-color:  none;
 }
 
-.searchBar {
-	margin-top: 15px;
+.searchBarWrapper {
+	max-width: var(--maxBodyWidth);
+	margin-right: auto;
+	margin-left: auto;
 	display: flex;
 	align-items: center;
 	align-content: center;
-	justify-content: center;
+	justify-content: space-between;
+}
+
+.searchBarInput {
+	border: 1px solid #DDD;
+	margin: 15px;
+	padding: 5px;
+	font-size: large;
+	border-radius: 10px;
+}
+
+.searchBarInput:hover {
+	border: 3px solid #AAA;
+	margin: 13px;
 }
 
 .postWrapper {
@@ -28,8 +45,8 @@
 	margin-left: auto;
 	margin-top: 15px;
 	margin-bottom: 5px;
-	background: gray;
-	border: 2px solid lightgray;
+	background: #DDD;
+	border: 2px solid #BBB;
 	width: 100%;
 	padding: 15px;
 }

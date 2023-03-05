@@ -20,7 +20,7 @@ const Home: NextPage = () => {
 	const [posts, setPosts] = useState<PostData[]>([]);
 	const [hidden, setHidden] = useState(true);
 	const [subToSearch, setSubToSearch] = useState<string>("planes");
-	const [formData, setFormData] = useState({
+	const [formData, setFormData] = useState<FormData>({
 		title:"",
 		content:"",
 		sub:""
@@ -69,7 +69,7 @@ const Home: NextPage = () => {
 		<form className={inputStyles.newPostContainer} onSubmit={handleSubmit}>
 			<label>Title</label>
 			<input
-				className={inputStyles.newPostTitle}
+				className={inputStyles.newPostContent}
 				name="title"
 				onChange={handleInputChange}
 				type="text"
@@ -88,15 +88,15 @@ const Home: NextPage = () => {
 			<label>Sub</label>
 			<input
 				disabled={true}
-				className={inputStyles.newPostContent}
+				className={inputStyles.newPostContentDisabled}
 				name="sub"
 				onChange={handleInputChange}
 				type="text"
 				value={formData.sub}
 				placeholder="sub"
 			/>
-			<input type="submit" value="Post"></input>
-			<button onClick={hideNewPost}>Close</button>
+			<input className={indexStyles.searchBarInput} type="submit" value="Post"></input>
+			<button className={indexStyles.searchBarInput} onClick={hideNewPost}>Close</button>
 		</form>
 	</div>) }
 	<div className={indexStyles.header}>
@@ -104,9 +104,9 @@ const Home: NextPage = () => {
 		  Title
 		</div>
 	</div>
-	<div className={indexStyles.searchBar}>
-		<input type="text" placeholder="search for a sub..." name="sub" onChange={handleSubSearch} value={subToSearch}></input>
-		<button onClick={showNewPost}>New post</button>
+	<div className={indexStyles.searchBarWrapper}>
+		<input className={indexStyles.searchBarInput} type="text" placeholder="search for a sub..." name="sub" onChange={handleSubSearch} value={subToSearch}></input>
+		<button className={indexStyles.searchBarInput} onClick={showNewPost}>New post</button>
 	</div>
 	
 	{posts.map((post, index) => (
