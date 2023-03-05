@@ -106,7 +106,7 @@ const Home: NextPage = () => {
 				value={formData.sub}
 				placeholder="sub"
 			/>
-			<div style={{display:'flex', flex_direction: 'flex-row'}}>
+			<div style={{display:'flex'}}>
 				<input className={indexStyles.searchBarInput} type="submit" value="Post"></input>
 				<button className={indexStyles.searchBarInput} onClick={hideNewPost}>Close</button>
 			</div>
