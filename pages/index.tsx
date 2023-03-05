@@ -87,7 +87,7 @@ const Home: NextPage = () => {
 			/>
 			<label>Sub</label>
 			<input
-				disabled="true"
+				disabled={true}
 				className={inputStyles.newPostContent}
 				name="sub"
 				onChange={handleInputChange}
