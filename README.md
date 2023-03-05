@@ -1,19 +1,11 @@
-# Next.js + TailwindCSS
+# Forum
+A reddit-like project that I have wanted to do for a long time.
+Made with NextJS and hosted on [replit](https://replit.com).
 
-Next.js Documentation: https://nextjs.org/docs<br>
-TailwindCSS Documentation: https://tailwindcss.com/docs/utility-first
+You can visit the website at [forum.nicolello.repl.co](https://forum.nicolello.repl.co).
 
-Next.js: The React Framework
-for Production.
-Next.js gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.
+## Contribute
 
-Tailwind is a utility-first CSS framework packed with classes like `flex`, `pt-4`, `text-center` and `rotate-90` that can be composed to build any design, directly in your markup.
+You can contribute by making a pull request. Please look at `PULL_REQUEST_TEMPLATE.md` for your PR to be approved.
 
-Example:
-```html
-<div className="bg-slate-800 text-xl p-2 border border-gray-100">
-  <p className="m-2 text-white">TailwindCSS and Next.js</p>
-  <a href="..." className="text-red-300">Visit the documentation</a>
-</div>
-```
-# forum
+Your contribution will be highly valued!
