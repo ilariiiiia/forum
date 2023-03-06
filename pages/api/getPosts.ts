@@ -37,12 +37,15 @@ export default async function handler(
 			res.status(200).json([{
 				"title":"No posts available. Be the first one!",
 				"content":""
-			}])
+			}]);
+			return;
 		}
 		const posts: Post[] = subs[subIndex].posts;
 		res.status(200).json(posts);
+		return;
 	} catch (error) {
 		console.error(error);
 		res.status(500).end('Server error');
+		return;
 	}
 }
